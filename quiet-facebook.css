@@ -3,6 +3,10 @@
 a[href*="lists"], /* Left column: Lists like 'Close Friends' */
 div[id*="ticker"], /* Right column / Chat sidebar: news ticker */
 div[id*="pagelet_trending_tags_and_topics"] /* Right column: Trending tags and topics */
+div[id*="stories_pagelet_rhc"], /* Right column: Stories */
+div[id*="pagelet_ego_pane"], /* Right column: Create add prompt */
+div[id*="homepage_panel_pagelet"], /* Right column: My Pages */
+div[id*="pagelet_rhc_footer"] /* Right column: Footer */
 {
   display: none !important;
 }
